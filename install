@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+#Be sure to use the "error" function - it will display a message if a command fails to run. Example below:
+rm sauerbraten.init &>/dev/null
+rm ~/Desktop/sauerbraten.init &>/dev/null
+rm download &>/dev/null
+rm ~/sauerbraten &>/dev/null
+sudo apt update || warning
+sudo apt install --yes zlib1g-dev libgeoip-dev build-essential libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev || error 'Install of sdl2 and opengl libraries failed!'
+wget https://sourceforge.net/projects/sauerbraten/files/sauerbraten/2020_11_29/sauerbraten_2020_12_29_linux.tar.bz2/download || error 'Download failed from sourceforge.net!'
+tar -xf download || error 'extract of Cube2: Sauerbraten failed!'
+make install -C ~/sauerbraten/src|| error 'build failed!'
+rm download &>/dev/null
+cp launcher.init sauerbraten.init
+mv sauerbraten.init ~/Desktop
+chmod +x ~/Desktop/sauerbraten.init
+chmod +x ~/sauerbraten/bin_unix/native_server
+chmod +x ~/sauerbraten/bin_unix/native_client
+# Install some packages that are necessary to run this app - no need for "error", as the install_packages function already handles errors.
+#exit 0

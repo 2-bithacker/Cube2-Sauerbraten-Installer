@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf ~/sauerbraten || warning
+rm download || warning
+rm ~/Desktop/sauerbraten.init || warning
+rm sauerbraten.init || warning
