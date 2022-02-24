@@ -9,4 +9,6 @@ That will download, extract, build, and create a launch file for Cube2: Sauerbra
 To remove, sauerbraten, run `cd ~/Cube2-Sauerbraten-Installer`
 Then run `bash uninstall`
 
+NOTE:  If you want to do a reinstall, make sure to run the uninstall script first before running the install script.
+
 If you have any bugs, or this need updating feel free to let me know! :)
