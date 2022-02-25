@@ -13,6 +13,6 @@ Then run `bash uninstall`
 
 NOTE:  If you want to do a reinstall, make sure to run the uninstall script first before running the install script again.
 
-If you have any bugs or this need updating feel free to let me know by reporting a bug! :)
+If you have any bugs or this need updating feel free to let me know by reporting a issue! :)
 
 This installer was brought to you by the RD sauerclan.  https://freddaws.wixsite.com/realdeal
