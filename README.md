@@ -2,9 +2,9 @@
 
 How to use:
 
-first, run `git clone https://github.com/2-bithacker/Cube2-Sauerbraten-Installer.git`
-Then, run `cd ~/Cube2-Sauerbraten-Installer`
-Then, run `bash install`
+First, run `git clone https://github.com/2-bithacker/Cube2-Sauerbraten-Installer.git`
+then, run `cd ~/Cube2-Sauerbraten-Installer`
+then, run `bash install`
 
 That will download, extract, build, and create a launch file for Cube2: Sauerbraten.
 
