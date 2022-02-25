@@ -1,6 +1,7 @@
 # Cube2-Sauerbraten-Installer for Linux
 
-How to use:  first, run `git clone https://github.com/2-bithacker/Cube2-Sauerbraten-Installer.git`
+How to use: 
+first, run `git clone https://github.com/2-bithacker/Cube2-Sauerbraten-Installer.git`
 Then, run `cd ~/Cube2-Sauerbraten-Installer`
 Then, run `bash install`
 
