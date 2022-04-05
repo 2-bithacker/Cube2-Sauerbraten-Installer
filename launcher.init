@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ~/sauerbraten
+cd ~/Cube2-Sauerbraten-Installer/sauerbraten
 ./sauerbraten_unix
